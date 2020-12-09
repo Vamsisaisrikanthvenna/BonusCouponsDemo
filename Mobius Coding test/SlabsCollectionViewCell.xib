@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SlabsCollectionViewCell" id="gTV-IL-0wX" customClass="SlabsCollectionViewCell" customModule="Mobius_Coding_test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ZS-y9-hGS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="po8-mh-tA9">
+                                <rect key="frame" x="16" y="18" width="343" height="14.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYa-cK-Dx3">
+                                        <rect key="frame" x="0.0" y="0.0" width="101" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ziW-zU-wCF">
+                                        <rect key="frame" x="121" y="0.0" width="101" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qeP-bV-wUV">
+                                        <rect key="frame" x="242" y="0.0" width="101" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="po8-mh-tA9" secondAttribute="trailing" constant="16" id="3jB-Ss-AA2"/>
+                            <constraint firstItem="po8-mh-tA9" firstAttribute="leading" secondItem="1ZS-y9-hGS" secondAttribute="leading" constant="16" id="FJh-TZ-jGh"/>
+                            <constraint firstItem="po8-mh-tA9" firstAttribute="centerY" secondItem="1ZS-y9-hGS" secondAttribute="centerY" id="LiH-h9-Rda"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="1ZS-y9-hGS" secondAttribute="trailing" id="4V0-yM-qWE"/>
+                <constraint firstItem="1ZS-y9-hGS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="IBt-9P-6fO"/>
+                <constraint firstAttribute="bottom" secondItem="1ZS-y9-hGS" secondAttribute="bottom" id="ODl-kg-3jv"/>
+                <constraint firstItem="1ZS-y9-hGS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RDb-hO-w7v"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="slabBonusAmnt" destination="ziW-zU-wCF" id="1E6-uo-ube"/>
+                <outlet property="slabInstantCash" destination="qeP-bV-wUV" id="cNl-P0-3kT"/>
+                <outlet property="slabPurchaseAmnt" destination="sYa-cK-Dx3" id="OTc-jz-B3O"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="118"/>
+        </collectionViewCell>
+    </objects>
+</document>

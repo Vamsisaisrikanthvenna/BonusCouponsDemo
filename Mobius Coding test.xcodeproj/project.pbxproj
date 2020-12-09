@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,21 @@
 		C6F2BD9125809B6F00E65F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F2BD8F25809B6F00E65F9B /* Main.storyboard */; };
 		C6F2BD9325809B7400E65F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F2BD9225809B7400E65F9B /* Assets.xcassets */; };
 		C6F2BD9625809B7400E65F9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F2BD9425809B7400E65F9B /* LaunchScreen.storyboard */; };
+		C6F2BD9E25809D1800E65F9B /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2BD9D25809D1800E65F9B /* Loader.swift */; };
+		C6F2BDA025809D3B00E65F9B /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2BD9F25809D3B00E65F9B /* WebServices.swift */; };
+		C6F2BDA225809E9D00E65F9B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2BDA125809E9D00E65F9B /* NetworkManager.swift */; };
+		C6F2BDA425809EC200E65F9B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2BDA325809EC200E65F9B /* Model.swift */; };
+		C6F2BDA72580A18E00E65F9B /* CouponsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2BDA52580A18E00E65F9B /* CouponsTableViewCell.swift */; };
+		C6F2BDA82580A18E00E65F9B /* CouponsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6F2BDA62580A18E00E65F9B /* CouponsTableViewCell.xib */; };
+		C6F2BDAD2580BA5A00E65F9B /* SlabsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2BDAB2580BA5A00E65F9B /* SlabsCollectionViewCell.swift */; };
+		C6F2BDAE2580BA5A00E65F9B /* SlabsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6F2BDAC2580BA5A00E65F9B /* SlabsCollectionViewCell.xib */; };
+		C6F2BDB02580C55900E65F9B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F2BDAF2580C55800E65F9B /* Utils.swift */; };
+		E22F59F8FE9E30A873FCF5A8 /* Pods_Mobius_Coding_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7876828DCE0E8920455975F /* Pods_Mobius_Coding_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73744F8F47110A6EF0FA220C /* Pods-Mobius Coding test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobius Coding test.release.xcconfig"; path = "Target Support Files/Pods-Mobius Coding test/Pods-Mobius Coding test.release.xcconfig"; sourceTree = "<group>"; };
+		B6BC23B2677AC694D3A6E042 /* Pods-Mobius Coding test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobius Coding test.debug.xcconfig"; path = "Target Support Files/Pods-Mobius Coding test/Pods-Mobius Coding test.debug.xcconfig"; sourceTree = "<group>"; };
 		C6F2BD8625809B6F00E65F9B /* Mobius Coding test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobius Coding test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F2BD8925809B6F00E65F9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6F2BD8B25809B6F00E65F9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,16 @@
 		C6F2BD9225809B7400E65F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6F2BD9525809B7400E65F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6F2BD9725809B7400E65F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F2BD9D25809D1800E65F9B /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		C6F2BD9F25809D3B00E65F9B /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		C6F2BDA125809E9D00E65F9B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C6F2BDA325809EC200E65F9B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C6F2BDA52580A18E00E65F9B /* CouponsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponsTableViewCell.swift; sourceTree = "<group>"; };
+		C6F2BDA62580A18E00E65F9B /* CouponsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CouponsTableViewCell.xib; sourceTree = "<group>"; };
+		C6F2BDAB2580BA5A00E65F9B /* SlabsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlabsCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6F2BDAC2580BA5A00E65F9B /* SlabsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlabsCollectionViewCell.xib; sourceTree = "<group>"; };
+		C6F2BDAF2580C55800E65F9B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		D7876828DCE0E8920455975F /* Pods_Mobius_Coding_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobius_Coding_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E22F59F8FE9E30A873FCF5A8 /* Pods_Mobius_Coding_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2170A993C027A528CEFA30A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6BC23B2677AC694D3A6E042 /* Pods-Mobius Coding test.debug.xcconfig */,
+				73744F8F47110A6EF0FA220C /* Pods-Mobius Coding test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7281AC59879E4F2F8566DDEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7876828DCE0E8920455975F /* Pods_Mobius_Coding_test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C6F2BD7D25809B6F00E65F9B = {
 			isa = PBXGroup;
 			children = (
 				C6F2BD8825809B6F00E65F9B /* Mobius Coding test */,
 				C6F2BD8725809B6F00E65F9B /* Products */,
+				2170A993C027A528CEFA30A8 /* Pods */,
+				7281AC59879E4F2F8566DDEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +105,15 @@
 				C6F2BD9225809B7400E65F9B /* Assets.xcassets */,
 				C6F2BD9425809B7400E65F9B /* LaunchScreen.storyboard */,
 				C6F2BD9725809B7400E65F9B /* Info.plist */,
+				C6F2BD9D25809D1800E65F9B /* Loader.swift */,
+				C6F2BD9F25809D3B00E65F9B /* WebServices.swift */,
+				C6F2BDA125809E9D00E65F9B /* NetworkManager.swift */,
+				C6F2BDA325809EC200E65F9B /* Model.swift */,
+				C6F2BDA52580A18E00E65F9B /* CouponsTableViewCell.swift */,
+				C6F2BDA62580A18E00E65F9B /* CouponsTableViewCell.xib */,
+				C6F2BDAB2580BA5A00E65F9B /* SlabsCollectionViewCell.swift */,
+				C6F2BDAC2580BA5A00E65F9B /* SlabsCollectionViewCell.xib */,
+				C6F2BDAF2580C55800E65F9B /* Utils.swift */,
 			);
 			path = "Mobius Coding test";
 			sourceTree = "<group>";
@@ -74,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6F2BD9A25809B7400E65F9B /* Build configuration list for PBXNativeTarget "Mobius Coding test" */;
 			buildPhases = (
+				EFAB1AAAB3E8FE81979A7D1D /* [CP] Check Pods Manifest.lock */,
 				C6F2BD8225809B6F00E65F9B /* Sources */,
 				C6F2BD8325809B6F00E65F9B /* Frameworks */,
 				C6F2BD8425809B6F00E65F9B /* Resources */,
+				CF490CD4F90ACF8A3E49FA62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +181,70 @@
 				C6F2BD9625809B7400E65F9B /* LaunchScreen.storyboard in Resources */,
 				C6F2BD9325809B7400E65F9B /* Assets.xcassets in Resources */,
 				C6F2BD9125809B6F00E65F9B /* Main.storyboard in Resources */,
+				C6F2BDA82580A18E00E65F9B /* CouponsTableViewCell.xib in Resources */,
+				C6F2BDAE2580BA5A00E65F9B /* SlabsCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF490CD4F90ACF8A3E49FA62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobius Coding test/Pods-Mobius Coding test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobius Coding test/Pods-Mobius Coding test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobius Coding test/Pods-Mobius Coding test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFAB1AAAB3E8FE81979A7D1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobius Coding test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C6F2BD8225809B6F00E65F9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F2BDA425809EC200E65F9B /* Model.swift in Sources */,
+				C6F2BDA225809E9D00E65F9B /* NetworkManager.swift in Sources */,
 				C6F2BD8E25809B6F00E65F9B /* ViewController.swift in Sources */,
+				C6F2BDA025809D3B00E65F9B /* WebServices.swift in Sources */,
 				C6F2BD8A25809B6F00E65F9B /* AppDelegate.swift in Sources */,
+				C6F2BDB02580C55900E65F9B /* Utils.swift in Sources */,
+				C6F2BDAD2580BA5A00E65F9B /* SlabsCollectionViewCell.swift in Sources */,
+				C6F2BD9E25809D1800E65F9B /* Loader.swift in Sources */,
 				C6F2BD8C25809B6F00E65F9B /* SceneDelegate.swift in Sources */,
+				C6F2BDA72580A18E00E65F9B /* CouponsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +386,7 @@
 		};
 		C6F2BD9B25809B7400E65F9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6BC23B2677AC694D3A6E042 /* Pods-Mobius Coding test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +404,7 @@
 		};
 		C6F2BD9C25809B7400E65F9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73744F8F47110A6EF0FA220C /* Pods-Mobius Coding test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
